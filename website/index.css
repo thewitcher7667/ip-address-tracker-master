@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#backg {
+    background-image: url("./images/pattern-bg.png");
+    position:absolute;
+    width: 100%;
+    height: 15em;
+    z-index: -1;
+}
+
+.stylIp{
+    text-align: center;
+    padding-top:50px;
+    font-size:32px;
+    color:white;
+}
+.butts {
+    text-align:center;
+    margin: 1px;
+    padding-left: 50px;
+    
+
+}
+.iptxt {
+    width: 320px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2.5px;
+    outline: none
+}
+
+.butt {
+    position: relative;
+    top:1px;
+    right: 46px;
+    width: 39px;
+    height: 37px;
+    background-color: hsl(0, 0%, 17%);
+    cursor:pointer;
+}
+
+.boxInf ul {
+    display: flex;
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 50px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-radius: 10px;
+   
+}
+
+    .boxInf ul li {
+        color: hsl(0, 0%, 59%);
+        font-weight: 600;
+        font-size:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .boxInf ul div {
+        color: hsl(0, 0%, 17%);
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+
+#map {
+    z-index:-1;
+    height: 30em;
+    width: 100%;
+    position:relative;
+    bottom:45px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
