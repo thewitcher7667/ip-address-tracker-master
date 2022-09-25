@@ -4,7 +4,7 @@ let lng;
 
 const IP = document.getElementById('iptxt');
 document.getElementById('butt').addEventListener('click', () => {
-    const ipval = IP.value;
+    let ipval = IP.value;
     getData(`/apiFetch/${ipval}`);
   
 });
